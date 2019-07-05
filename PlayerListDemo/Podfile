@@ -1,0 +1,18 @@
+platform :ios, '10.0'
+
+inhibit_all_warnings!
+use_frameworks!
+
+
+workspace 'PlayerListDemo'
+
+target 'PlayerListDemo' do
+
+  pod 'ZFPlayer'
+  pod 'ZFPlayer/ControlView'
+  pod 'ZFPlayer/AVPlayer'
+  pod 'YYKit'
+  #pod 'ZFPlayer/ijkplayer'
+  #pod 'ZFPlayer/KSYMediaPlayer'
+
+end
